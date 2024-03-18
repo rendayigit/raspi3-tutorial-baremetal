@@ -23,6 +23,8 @@
 #
 #
 
+# arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-aarch64-none-elf.zip from https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+
 SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
 CFLAGS = -Wall -O2 -ffreestanding -nostdinc -nostdlib -nostartfiles
